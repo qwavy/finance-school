@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    /* max-width: 1920px; */
+    font-family: "Roboto";
+    margin: auto;
+}
+
+
+.title{
+    color: #1F4D36;
+    font-size: 70px;
+}
+.description{
+    color: #1F4D36;
+    font-size: 20px;
+}
+.button{
+    font-family: "Roboto";
+    color: #1F4D36;
+    border: 1px solid #1F4D36;
+    background-color: #1F4D36;
+    padding: 12px;
+    border-radius: 12px;
+}
+.white{
+
+
+    color: #F2F4EA;
+}
+.transparent{
+    background-color: transparent;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1F4D36;
+    background-color: #F2F4EA;
+    min-height: 100px;
+}
+.nav__list{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+main{
+    
+}
+.care-section{
+    display: flex;
+    justify-content: center;
+}
+.care-section__button{
+    color: #CFE3CC;
+}
+.care-section__description{
+    max-width: 500px;
+}
+
+.care-section__images{
+    position: relative;
+}
+.care-section__image-2{
+    position: relative;
+    left: -600px;
+}
+
+
+.finance-platform-section{
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(31,77,54);
+    background:  -webkit-linear-gradient(270deg, rgba(31,77,54,1) 70%, rgba(255,255,255,1) 70% 100%);
+
+}
+.finance-platform-section__title{
+    
+    margin: auto;
+    margin-top: 100px;
+    max-width: 900px;
+}
+.finance-platform-section__description{
+    max-width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.finance-platform-section__image-block{
+    margin: auto;
+}
+.finance-platform-section__image{
+    object-fit: contain;
+}
+
+
+.financial-life-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.financial-life-section__title{
+    margin: auto;
+
+    max-width: 700px;
+}
+
+.financial-life-section__description{
+    max-width: 700px;
+}
