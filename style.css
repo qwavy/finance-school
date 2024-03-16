@@ -115,3 +115,69 @@ main{
 .financial-life-section__description{
     max-width: 700px;
 }
+
+.financial-solution-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.financial-solution-section__title{
+    margin-right: 25px;
+    max-width: 500px;
+    font-size: 50px;
+}
+.financial-solution-section__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.financial-solution-section__input{
+    padding: 20px;
+    min-width: 400px;
+    border: 0;
+    border-bottom: 2px solid #1F4D36;
+}
+.financial-solution-section__input::placeholder{
+    color: #1F4D36;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+.financial-solution-section__input:focus{
+    outline: none ;
+}
+
+.financial-solution-section__button{
+    margin-top: 50px;
+    max-width: 200px;
+    font-size: 20px;
+
+}
+
+.physicians-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.physicians-section__title{
+
+}
+
+.physicians-section__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+
+.knowledge-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.knowledge-section__button{
+    min-width: 100px;
+}
