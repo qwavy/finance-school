@@ -22,7 +22,44 @@ body{
     background-color: #1F4D36;
     padding: 12px;
     border-radius: 12px;
+    cursor: pointer;
 }
+.button:hover{
+    background-color: #12be68;
+    border: 1px solid #12be68;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 20px;
+    min-width: 400px;
+    border: 0;
+    border-bottom: 2px solid #1F4D36;
+}
+input::placeholder{
+    color: #1F4D36;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+input:focus{
+    outline: none ;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+hr{
+    width: 100%;
+}
+
 .white{
 
 
@@ -45,14 +82,15 @@ header{
     display: flex;
     list-style-type: none;
     gap: 50px;
+    cursor: pointer;
+}
+.nav__item:hover{
+    color: #12be68;
 }
 main{
     
 }
-.care-section{
-    display: flex;
-    justify-content: center;
-}
+
 .care-section__button{
     color: #CFE3CC;
 }
@@ -101,10 +139,7 @@ main{
 
 
 .financial-life-section{
-    display: flex;
-    justify-content: center;
     text-align: center;
-    margin-top: 150px;
 }
 .financial-life-section__title{
     margin: auto;
@@ -116,35 +151,15 @@ main{
     max-width: 700px;
 }
 
-.financial-solution-section{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
-}
+
 .financial-solution-section__title{
     margin-right: 25px;
     max-width: 500px;
     font-size: 50px;
 }
-.financial-solution-section__form{
-    display: flex;
-    flex-direction: column;
-}
 
-.financial-solution-section__input{
-    padding: 20px;
-    min-width: 400px;
-    border: 0;
-    border-bottom: 2px solid #1F4D36;
-}
-.financial-solution-section__input::placeholder{
-    color: #1F4D36;
-    font-family: 'Roboto';
-    font-size: 25px;
-}
-.financial-solution-section__input:focus{
-    outline: none ;
-}
+
+
 
 .financial-solution-section__button{
     margin-top: 50px;
@@ -157,6 +172,7 @@ main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #1F4D36;
 }
 
 .physicians-section__title{
@@ -164,20 +180,79 @@ main{
 }
 
 .physicians-section__container{
+    margin:100px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1;
-    max-width: 1000px;
-    min-width: 500px;
+    max-width: 1500px;
+    min-width: 1200px;
+}
+.physicians-section__item{
+    text-align: center;
+}
+.physicians-section__image{
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #F2F4EA;
 }
 
-
 .knowledge-section{
-    display: flex;
-    justify-content: center;
     text-align: center;
 }
 
 .knowledge-section__button{
     min-width: 100px;
+}
+
+.waitlist-section{
+    background-color: #CFE3CC;
+    padding: 100px;
+}
+
+.waitlist-section__info{
+    margin-right: 200px;
+}
+
+.waitlist-section__info input{
+    background-color: #CFE3CC;
+}
+
+.waitlist-section__form{
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.waitlist-section__button{
+    max-width: 200px;
+}
+
+
+
+footer{
+    min-height: 600px;
+    max-height: 1000px;
+    background-color: #1F4D36;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.footer__title{
+
+    max-width: 700px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    /* min-width: 1200px; */
+}
+.footer__list{
+    list-style-type: none;
+}
+.footer__list .footer__item:first-child{
+    margin-bottom: 10px;
+    color: red;
 }
